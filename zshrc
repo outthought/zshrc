@@ -21,3 +21,5 @@ eval "$(direnv hook zsh)"
 # https://github.com/zsh-users/zsh-autosuggestions
 # source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
+zoom="https://Optimizely.zoom.us/j/6222134595?pwd=NDU2aXBmNlE4SFpFL2pWbkpqck1xZz09"
+
