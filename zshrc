@@ -26,3 +26,6 @@ zoom="https://Optimizely.zoom.us/j/6222134595?pwd=NDU2aXBmNlE4SFpFL2pWbkpqck1xZz
 # flux completions https://fluxcd.io/docs/cmd/flux_completion_zsh/
 # command -v flux >/dev/null && . <(flux completion zsh) && compdef _flux flux
 
+# tz (timezone) helper
+export TZ_LIST=US/Mountain,US/Central,US/Eastern
+
