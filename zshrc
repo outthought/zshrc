@@ -40,3 +40,13 @@ setopt HIST_SAVE_NO_DUPS  # do not save duplicated command
 setopt HIST_REDUCE_BLANKS  # remove unnecessary blanks
 setopt INC_APPEND_HISTORY_TIME  # append command to history file immediately after execution
 setopt EXTENDED_HISTORY  # record command start time
+
+# Hashicorp Vault
+export VAULT_ADDR=https://vault.prod.zaius
+export VAULT_SKIP_VERIFY=true
+
+# Hashicorp Consul
+export CONSUL_HTTP_ADDR=http://consul.prod.zaius:8500
+
+# awscli
+export AWS_REGION=eu-west-1
