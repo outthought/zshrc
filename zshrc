@@ -42,8 +42,7 @@ setopt INC_APPEND_HISTORY_TIME  # append command to history file immediately aft
 setopt EXTENDED_HISTORY  # record command start time
 
 # Hashicorp Vault
-export VAULT_ADDR=https://vault.prod.zaius
-export VAULT_SKIP_VERIFY=true
+export VAULT_ADDR=http://vault.prod.zaius
 
 # Hashicorp Consul
 export CONSUL_HTTP_ADDR=http://consul.prod.zaius:8500
