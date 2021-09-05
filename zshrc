@@ -52,6 +52,9 @@ export CONSUL_HTTP_ADDR=http://consul.prod.zaius:8500
 # awscli
 export AWS_REGION=eu-west-1
 
+# GitHub personal access token
+# export GITHUB_TOKEN=
+
 # https://github.com/cantino/mcfly
 # brew tap cantino/mcfly
 # brew install mcfly
