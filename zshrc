@@ -51,3 +51,8 @@ export CONSUL_HTTP_ADDR=http://consul.prod.zaius:8500
 
 # awscli
 export AWS_REGION=eu-west-1
+
+# https://github.com/cantino/mcfly
+# brew tap cantino/mcfly
+# brew install mcfly
+eval "$(mcfly init zsh)"
