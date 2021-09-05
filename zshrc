@@ -1,5 +1,7 @@
 # Prompt
-PS1='$ ' # $
+# PS1='$ ' # $
+PS1='%~
+$ '
 
 alias k=kubectl
 alias kns=kubens
