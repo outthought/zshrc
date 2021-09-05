@@ -3,7 +3,7 @@ PS1='$ ' # $
 
 alias k=kubectl
 alias kns=kubens
-alias kcx=kubectx
+alias kctx=kubectx
 
 # doom path append
 path+="$HOME/.emacs.d/bin"
