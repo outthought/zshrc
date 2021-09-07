@@ -59,3 +59,7 @@ export AWS_REGION=eu-west-1
 # brew tap cantino/mcfly
 # brew install mcfly
 eval "$(mcfly init zsh)"
+
+# kubectl completion
+autoload -U compinit && compinit
+source <(kubectl completion zsh)
