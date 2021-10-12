@@ -63,3 +63,6 @@ eval "$(mcfly init zsh)"
 # kubectl completion
 autoload -U compinit && compinit
 source <(kubectl completion zsh)
+# Do not consider forward-slash characters (/) to be part of words.
+# Removing / from WORDCHARS allows M-b and M-f to stop at / characters.
+export WORDCHARS=$WORDCHARS:s:/:
