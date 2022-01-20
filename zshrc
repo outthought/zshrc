@@ -1,11 +1,14 @@
 # Prompt
 # PS1='$ ' # $
-PS1='%~ %D{%f/%m/%y} %D{%L:%M:%S}
+PS1='%D{%f/%m/%y} %D{%L:%M:%S} %~
 $ '
 
+#alias docker=podman
 alias k=kubectl
-alias kns=kubens
 alias kctx=kubectx
+alias kns=kubens
+alias pip=/usr/local/bin/pip3
+alias python=/usr/local/bin/python3
 
 # doom path append
 path+="$HOME/.emacs.d/bin"
