@@ -1,6 +1,6 @@
 # Prompt
 # PS1='$ ' # $
-PS1='%~
+PS1='%~ %D{%f/%m/%y} %D{%L:%M:%S}
 $ '
 
 alias k=kubectl
