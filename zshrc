@@ -31,8 +31,8 @@ zoom="https://Optimizely.zoom.us/j/6222134595?pwd=NDU2aXBmNlE4SFpFL2pWbkpqck1xZz
 # flux completions https://fluxcd.io/docs/cmd/flux_completion_zsh/
 # command -v flux >/dev/null && . <(flux completion zsh) && compdef _flux flux
 
-# tz (timezone) helper
-export TZ_LIST=America/Phoenix,US/Central,US/Eastern
+# tz (timezone) helper (https://github.com/oz/tz)
+export TZ_LIST='America/Phoenix;US/Central;US/Eastern;UTC'
 
 # History File options from: https://jdhao.github.io/2021/03/24/zsh_history_setup/
 # the detailed meaning of the below three variable can be found in `man zshparam`.
