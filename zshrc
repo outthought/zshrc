@@ -52,9 +52,6 @@ export VAULT_ADDR=http://vault.prod.zaius
 # Hashicorp Consul
 export CONSUL_HTTP_ADDR=http://consul.prod.zaius:8500
 
-# GitHub personal access token
-export GITHUB_TOKEN=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
-
 # https://github.com/cantino/mcfly
 # brew tap cantino/mcfly
 # brew install mcfly
